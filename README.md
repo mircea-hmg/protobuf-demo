@@ -7,6 +7,7 @@ It exposes one REST endpoint which accepts a json Event object. It then serializ
 ### Description
 - spring boot creates executable jar
 - protobuf-maven-plugin compiles src/main/proto
+- check src/main/resources/application.properties for detailed app settings
 
 ### Execution
 - build test run ```mvn clean test spring-boot:run```
