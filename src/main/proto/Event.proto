@@ -1,0 +1,12 @@
+syntax = "proto2";
+
+package test;
+
+option java_package = "com.konux.app.test.proto";
+option java_outer_classname = "Event";
+
+message UserEvent {
+  required string event = 1;
+  required int32 userId = 2;
+  optional int64 timestamp = 3;
+}
