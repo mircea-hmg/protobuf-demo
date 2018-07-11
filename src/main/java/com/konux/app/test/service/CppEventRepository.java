@@ -9,6 +9,9 @@ import org.springframework.stereotype.Component;
 
 import static com.konux.app.test.service.EventFactory.toProtoEvent;
 
+/**
+ * Serializes event to protobuf and sends it over HTTP to the c++ storage service.
+ */
 @Component
 public class CppEventRepository implements EventRepository {
 
